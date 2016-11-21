@@ -43,6 +43,9 @@ public class Main3 extends Activity {
             MyService.MyBinder myBinder = (MyService.MyBinder) service;
             myService = myBinder.getService();
             mBound = true;
+
+
+            
         }
 
         @Override
